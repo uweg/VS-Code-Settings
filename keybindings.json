@@ -1,5 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-  {"key": "ctrl+k ctrl+d", "command": "editor.action.format", "when": "editorTextFocus"},
-  {"key": "ctrl+w", "command": "editor.action.smartSelect.grow", "when": "editorTextFocus"}
+	{"key": "ctrl+r", "command": "workbench.action.tasks.runTask"},
+	{"key": "ctrl+w", "command": "editor.action.smartSelect.grow","when": "editorTextFocus"},
+	{ "key": "ctrl+k ctrl+d", "command": "editor.action.format", "when": "editorTextFocus" }
 ]
